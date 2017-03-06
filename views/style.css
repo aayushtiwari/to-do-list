@@ -1,0 +1,81 @@
+nav ul li {
+    padding: 2px;
+}
+h1{
+    text-decoration: underline;
+    padding:4px;
+}
+h2{
+    font-size:40px;
+    padding:5px;
+}
+p{ padding:5px;
+font-size:20px;     
+}
+.navbar-header{
+    padding: 5px;
+    font-size: 25px;
+}
+.jumbotron {
+    text-align: center;
+    background-image: url(clock.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+li {list-style: none;
+}
+.jumbotron ul li:hover {
+    background: lightgray;
+    text-decoration:line-through;
+}
+footer {
+    text-align: center;
+}
+input[type="text"]
+{
+    padding: 20px;
+    background:#181c22;
+    border: 0;
+    font-size: 20px;
+    color: #989898;
+}
+
+button{
+    padding: 20px;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media (min-width:1200px) and (max-width:1900px) {
+    .jumbotron {
+        height: 600px;
+        font-size: 20px;
+
+    }
+}
+@media (min-width:800px) and (max-width:1200px) {
+    .jumbotron {
+        height: 600px;
+        font-size: 20px;
+    }
+}
+@media (min-width:500px) and (max-width:800px) {
+    .jumbotron {
+        height: 400px;
+        font-size: 20px;
+    }
+}
+@media (min-width:200px) and (max-width:500px) {
+    .jumbotron {
+        height: 300px;
+        font-size: 20px;
+    }
+}
+footer{background: black; color: cornsilk;
+padding:10px;
+    font-size: 17px;
+}
